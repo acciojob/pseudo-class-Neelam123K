@@ -1,19 +1,15 @@
 /*  your css code here. If applicable */
 #container{
 	margin: 20px;
-    font-size: 16px;
+    font-size: 20px;
 }
 #container::before {
     content: " Before Element";
-    display: inline;
     color: #f00;
     font-size: 20px;
-    margin-bottom: 5px;
 }
 #container::after {
     content: "After Element";
-    display: inline;
     color: #f00;
     font-size: 20px;
-    margin-top: 5px;
 }
